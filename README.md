@@ -12,14 +12,14 @@ If players run into the cylinders they will also be killed.
 
 
 Questions:
-1.Is the game easy or difficult?
+
  
-2.Do you think the speed of the balls suitable?
+1.Do you think the speed of the balls suitable?
 
-3.Do you like the effect after the player run into the balls or cylinders? if not how should I display that players lose the game?
+2.Should I add more balls or Cylinders?
 
-4.Should I adjust the camera settings?
+3.Should I adjust the camera settings?
 
-5.Is there any bugs occurred when you play?
+4.Is there any bugs occurred when you play?
 
-6.Do you enjoy the game?
+5.Do you enjoy the game?
