@@ -6,6 +6,18 @@ public class chase : MonoBehaviour
 {
     // Start is called before the first frame update
     public Transform target;
+    public GameObject player;
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.gameObject == player)
+        {
+            Debug.Log("detection");
+            Vector3 force = new Vector3(100, 100, 5);
+            player.GetComponent<Rigidbody>().AddForce(force);
+            //Destroy(collision.collider.gameObject);
+
+        }
+    }
     void Start()
     {
         
