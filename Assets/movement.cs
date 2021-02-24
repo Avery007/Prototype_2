@@ -16,8 +16,8 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector3 change = this.transform.TransformVector(0.05f, 0, 0);
-        Vector3 changeVertical = this.transform.TransformVector(0, 0, 0.05f);
+        Vector3 change = this.transform.TransformVector(0.01f, 0, 0);
+        Vector3 changeVertical = this.transform.TransformVector(0, 0, 0.01f);
         if (Input.GetKey(KeyCode.D))
         {
             //Vector3 change = this.transform.TransformVector(0.005f, 0, 0);
