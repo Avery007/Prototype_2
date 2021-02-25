@@ -44,12 +44,12 @@ public class movement : MonoBehaviour
             this.transform.position = this.transform.position - changeVertical;
         }
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.E))
         {
             this.GetComponent<Transform>().Rotate(rotatingL);
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.Q))
         {
             this.GetComponent<Transform>().Rotate(rotatingR);
         }
