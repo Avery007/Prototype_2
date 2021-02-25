@@ -6,13 +6,14 @@ public class eating : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject point;
-
+    public GameObject text;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.gameObject == point)
         {
             Debug.Log("detection");
             Destroy(collision.collider.gameObject);
+            text.SetActive(true);
         }
     }
     void Start()
