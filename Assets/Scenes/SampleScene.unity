@@ -1794,7 +1794,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -350, y: -140}
-  m_SizeDelta: {x: 160, y: 70}
+  m_SizeDelta: {x: 170, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208611272
 MonoBehaviour:
@@ -1829,10 +1829,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'ASDW to move. There are 5 cubes but only one is for you. Find the right
-    one and you will win! But if you run into the balls or Cylinders you will lose!
-
-'
+  m_Text: ASDW move and QE Rotate. There are 5 cubes but only one is for you. Find
+    the right one and you will win! Or you will be killed by the balls or Cylinders.
 --- !u!222 &1208611273
 CanvasRenderer:
   m_ObjectHideFlags: 0
